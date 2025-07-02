@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Download } from 'lucide-react';
-
+import CV from '../assets/Vivek CV.pdf';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -92,7 +92,7 @@ const Contact = () => {
 
             <div>
               <a
-                href="/Vivek CV.pdf"
+                href={CV}
                 download
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-emerald-500 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
