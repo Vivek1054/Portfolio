@@ -13,7 +13,7 @@ import img8 from '../assets/Chanakya project images/incognito page.png';
 import img9 from '../assets/Chanakya project images/siri wave.png';
 import img10 from '../assets/Chanakya project images/demo menu.png';
 
-// ✅ NEW: MarkTask images
+// ✅ MarkTask images
 import completedTask from '../assets/MarkTask img/completed task.png';
 import darkMode from '../assets/MarkTask img/dark mode.png';
 import lightMode from '../assets/MarkTask img/light mode.png';
@@ -37,6 +37,7 @@ const Projects = () => {
       technologies: ['Python', 'MySQL', 'SQLite', 'HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/Vivek1054/CHANAKYA',
       featured: true,
+      // ✅ Notice: No LiveUrl for CHANAKYA!
     },
     {
       title: 'MarkTask To-Do App',
@@ -54,7 +55,8 @@ const Projects = () => {
         deletedTask,
       ],
       technologies: ['React', 'TailwindCSS', 'Framer Motion'],
-      githubUrl: 'https://github.com/Vivek1054/MarkTask',
+      githubUrl: 'https://github.com/Vivek1054/Project-MarkTask',
+      LiveUrl: 'https://project-mark-task-6khw.vercel.app/',
       featured: true,
     },
   ];
@@ -124,6 +126,18 @@ const Projects = () => {
                       <Github size={16} />
                       Code
                     </a>
+                    {project.LiveUrl && (
+                      <a
+                        href={project.LiveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <ExternalLink size={16} />
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
