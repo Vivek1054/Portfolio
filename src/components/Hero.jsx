@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <p className="text-lg text-slate-500 dark:text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
             Passionate about building intelligent software solutions with Python, Java, and modern web technologies.
-            Currently pursuing BSc in Information Technology at Dalmia College, Mumbai.
+            I have completed my BSc in Information Technology at Prahladrai Dalmia Lions College, Mumbai.
           </p>
         </div>
 

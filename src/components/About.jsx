@@ -12,7 +12,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-              Computer Science Engineering student with a passion for software
+              IT student with a passion for software
               development and emerging technologies
             </p>
           </div>
@@ -85,7 +85,7 @@ const About = () => {
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Hello! I'm Vivek</h3>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-                  I'm a dedicated Computer Science Engineering student with a strong foundation in programming
+                  I'm a dedicated BSc.IT student with a strong foundation in programming
                   and software development. My journey in technology has equipped me with skills in Java, Python,
                   and modern web technologies, along with experience in database management and system design.
                 </p>
@@ -105,7 +105,7 @@ const About = () => {
                 <div className="text-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <GraduationCap className="w-8 h-8 text-emerald-500 mx-auto mb-3" />
                   <h4 className="font-semibold mb-2">Education</h4>
-                  <p className="text-sm text-slate-600 dark:text-slate-400">B.Tech CSE Student</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">BSc.IT (Completed 2025)</p>
                 </div>
                 <div className="text-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <Target className="w-8 h-8 text-orange-500 mx-auto mb-3" />
