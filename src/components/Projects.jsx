@@ -56,7 +56,7 @@ const Projects = () => {
       ],
       technologies: ['React', 'TailwindCSS', 'Framer Motion'],
       githubUrl: 'https://github.com/Vivek1054/Project-MarkTask',
-      LiveUrl: 'https://project-mark-task-6khw.vercel.app/',
+      LiveUrl: 'https://marktask.netlify.app/',
       featured: true,
     },
   ];
