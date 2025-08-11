@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Download } from 'lucide-react';
-import CV from '../assets/Vivek CV.pdf';
+import CV from '../assets/Vivek-CV.pdf';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
